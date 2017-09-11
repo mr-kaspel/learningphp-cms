@@ -8,12 +8,12 @@
 
 ##### Файл **_".htpasswd"_** пусть, следует сгенерировать при помощи htpasswd.exe
 
-**_"engin"_** BD содержащая таблицы. 
+** _"engin"_** BD содержащая таблицы. 
 Таблица для хранения статей **_"articles"_**
 |          id        |       title      |   content       |   date   |
 |--------------------|------------------|-----------------|----------|
 |  `AUTO_INCREMENT`  |  `varchar(225)`  |    `text`       |  `date`  |
-|                    |`utf8_gentral_ci` |`utf8_gentral_ci`|          |
+|         -         |`utf8_gentral_ci`  |`utf8_gentral_ci` |   -    |
 
 ##### SQL запрос для формирования тиблицы
 
@@ -33,7 +33,7 @@ CREATE TABLE `engin`.`documentation` ( `id` INT NOT NULL AUTO_INCREMENT , `img` 
 
 ***
 
-##Были использованы дополнительные библиотеки
+## Были использованы дополнительные библиотеки
 
 [Progressively](https://github.com/thinker3197/progressively)
 [Font Awesome](https://fontawesome.ru/)
