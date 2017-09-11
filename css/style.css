@@ -1,0 +1,112 @@
+footer {
+	text-align: center;
+}
+
+.article {
+	margin-top: 30px;
+	margin-bottom: 35px;
+	overflow: hidden;
+}
+
+.article em {
+	color: rgb(119, 119, 119);
+}
+
+.article h3 {
+	font-size: 20px;
+}
+
+#blog {
+	color: rgb(51, 122, 183);
+	font-size: 28px;
+	padding-left: 0px;
+}
+
+#admin_table {
+	margin-top: 45px;
+}
+
+.form-item {
+	width: 100%;
+}
+
+#addart textarea {
+	height: 250px;
+}
+
+input[type="submit"] {
+	width: 100px;
+}
+
+#addart label {
+	width: 100%;
+}
+
+#editor { 
+	height: 30em;
+	overflow: auto;
+}
+
+.sidebar{
+	margin-top: 45px;
+}
+
+.top{
+	margin-top: 5em;
+}
+
+.img.progressive__img{
+	width: 100%;
+	height: 100%;
+}
+
+.imgprof{
+	position: relative;
+	float: left;
+	width: 15em;
+	/* height: 15em; */
+	background-size: cover;
+	margin: 1em;
+	text-align: center;
+	border: 1px solid #eee;
+	word-wrap: break-word;
+}
+
+::-webkit-file-upload-button{
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+	 display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: .5rem .75rem;
+	font-size: 1rem;
+	line-height: 1.25;
+	border-radius: .25rem;
+	transition: all .15s ease-in-out;
+}
+
+.nav-link.active{
+	text-decoration: underline;
+	color: red;
+}
+
+code {
+	background-color: #ccc;
+	padding: .1px 4px;
+	border-radius: 2px;
+	color: #15384e;
+}
+
+.error{
+	margin: auto;
+	text-align: center;
+	margin-top: 20%;
+}
