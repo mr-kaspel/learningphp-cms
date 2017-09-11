@@ -6,7 +6,7 @@
   + _/views/files.php_
   + _/views/upload.php_
 
-Файл **_".htpasswd"_** пусть, следует сгенерировать при помощи htpasswd.exe
+Файл **_".htpasswd"_** пусть, следует сгенерировать при помощи **_htpasswd.exe_**
 
 **_"engin"_** BD содержащая таблицы. 
 Таблица для хранения статей **_"articles"_**
@@ -38,6 +38,8 @@ CREATE TABLE `engin`.`documentation` ( `id` INT NOT NULL AUTO_INCREMENT ,
 `img` LONGBLOB NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB CHARACTER
 SET utf8 COLLATE utf8_general_ci;
 ```
+
+ ###### Загруженные изображения хранятся в базе данных и в папке `/views/img/`
 
 ***
 
