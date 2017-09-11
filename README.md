@@ -10,10 +10,11 @@
 
 **_"engin"_** BD содержащая таблицы. 
 Таблица для хранения статей **_"articles"_**
+
 | id | title | content | date |
-|---|---|---|---|
-| AUTO_INCREMENT | varchar(225) | text | date |
-| - | utf8_gentral_ci |utf8_gentral_ci | - |
+| :---: | :---: | :---: | :---: |
+| `AUTO_INCREMENT` | `varchar(225)` | `text` | `date` |
+| - | `utf8_gentral_ci` | `utf8_gentral_ci` | - |
 
 ##### SQL запрос для формирования тиблицы "articles":
 
@@ -22,9 +23,10 @@ CREATE TABLE `engin`.`articles` ( `id` INT NOT NULL AUTO_INCREMENT , `title` VAR
 ```
 
 Табилца **_"documentation"_** хранящая файлы в базе данных содержит два поля:
-|       id       |    img    |
-|----------------|-----------|
-| AUTO_INCREMENT |  longblob |
+
+| id | img |
+| :---: | :---: |
+| AUTO_INCREMENT | longblob |
 
 ##### SQL запрос для формирования таблицы "documentation": 
 ```sql
