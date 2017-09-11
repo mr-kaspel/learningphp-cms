@@ -19,18 +19,24 @@
 ##### SQL запрос для формирования тиблицы "articles":
 
 ```sql
-CREATE TABLE `engin`.`articles` ( `id` INT NOT NULL AUTO_INCREMENT , `title` VARCHAR(225) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `content` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `date` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE TABLE `engin`.`articles` ( `id` INT NOT NULL AUTO_INCREMENT ,
+`title` VARCHAR(225) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`content` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`date` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB CHARACTER
+SET utf8 COLLATE utf8_general_ci;
 ```
 
 Табилца **_"documentation"_** хранящая файлы в базе данных содержит два поля:
 
 | id | img |
 | :---: | :---: |
-| AUTO_INCREMENT | longblob |
+| `AUTO_INCREMENT` | `longblob` |
 
 ##### SQL запрос для формирования таблицы "documentation": 
 ```sql
-CREATE TABLE `engin`.`documentation` ( `id` INT NOT NULL AUTO_INCREMENT , `img` LONGBLOB NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE TABLE `engin`.`documentation` ( `id` INT NOT NULL AUTO_INCREMENT ,
+`img` LONGBLOB NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB CHARACTER
+SET utf8 COLLATE utf8_general_ci;
 ```
 
 ***
